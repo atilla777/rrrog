@@ -1,0 +1,34 @@
+# Rrrog! Game .gitignore
+
+# Build artifacts
+/exports/
+*.exe
+
+# Game saves (user-specific)
+/saves/
+
+# OS specific files
+## Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+## macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+
+# IDE specific files
+## Visual Studio Code
+.vscode/
+*.code-workspace
+
+## RubyMine
+.idea/
+*.iml
+*.iws

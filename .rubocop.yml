@@ -1,0 +1,7 @@
+require:
+  - rubocop-performance
+
+AllCops:
+  DisabledByDefault: false
+  NewCops: enable
+  TargetRubyVersion: 3.2.1
